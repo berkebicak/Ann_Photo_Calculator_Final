@@ -188,6 +188,12 @@ print("test loss, test acc:", results)
 print(' ')
 print(classification_report(Y_test_hat, yprediction))
 
+cm = confusion_matrix(Y_test_hat, yprediction)
+plt.figure(figsize= (10,7))
+sn.heatmap(cm, annot=True, fmt='d')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+
 model.save('model_FINAL.h5')
 
 def prediction_and_calculator(path):
