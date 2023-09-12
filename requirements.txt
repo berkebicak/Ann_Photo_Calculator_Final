@@ -1,0 +1,10 @@
+opencv-python
+imutils
+tensorflow
+seaborn
+matplotlib
+pandas
+numpy
+Pillow
+sklearn
+IPython
