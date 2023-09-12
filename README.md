@@ -20,8 +20,7 @@ The model is trained using a combination of K-fold cross validation and data aug
  - Unzip the data_berke.zip 
 - Run the project on your machine
 #### Dependencies
-- cv2 
-- os 
+- opencv-python
  - imutils 
  - tensorflow 
 - seaborn
