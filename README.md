@@ -27,7 +27,7 @@ The model is trained using a combination of K-fold cross validation and data aug
  - matplotlib
 - pandas
 - numpy
-- PIL
+- Pillow
 - sklearn
 - IPython
 
