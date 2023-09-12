@@ -6,5 +6,5 @@ matplotlib
 pandas
 numpy
 Pillow
-sklearn
+scikit-learn
 IPython
